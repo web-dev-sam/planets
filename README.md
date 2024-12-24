@@ -8,9 +8,9 @@
 </div>
 
 ## Live Demo
-You can find a live demo here: [https://nuxtjs-planets.webcodelab.de/](https://nuxtjs-planets.webcodelab.de/). If that link doesnt work you can alternatively try it here: [https://nuxtjs-planets.vercel.app/](https://nuxtjs-planets.vercel.app/).
+You can find a live demo here: [https://planets.webry.com/](https://planets.webry.com/).
 
-<img src="https://bitbucket.org/samuel-braun/nuxtjs-planets-fact-site/raw/f62919fa0eccb604c12064acd644dc59385f45f9/demo.jpg" width="256">
+<img src="https://github.com/web-dev-sam/planets/blob/main/demo.jpg?raw=true" width="256">
 
 
 ## Getting Started
@@ -21,6 +21,6 @@ $ npm run dev
 ```
 
 ## About Frontend Mentor
-You can access the challenge [here](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL)
+You can access the challenge [here](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f)
 
 <br>
