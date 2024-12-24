@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body {
+    @apply bg-dark;
+    text-rendering: optimizeLegibility;
+}
+
+body,
+p {
+    @apply font-spartan text-p font-normal text-white;
+}
+
+h1,
+.h1 {
+    @apply font-antonio text-h1 font-medium uppercase text-white;
+    text-rendering: geometricPrecision;
+}
+
+h2,
+.h2 {
+    @apply font-antonio text-h2 font-medium uppercase tracking-h2 text-white;
+    text-rendering: geometricPrecision;
+}
+
+h3,
+.h3 {
+    @apply font-spartan text-h3 font-semibold uppercase tracking-h3 text-white;
+    text-rendering: optimizeLegibility;
+}
+
+h4,
+.h4 {
+    @apply font-spartan text-h4 font-semibold uppercase tracking-h4 text-white;
+    text-rendering: optimizeLegibility;
+}
+
+button {
+    @apply border-[1px] border-white-20% text-white bg-transparent hover:border-white;
+    @apply font-spartan text-h3 font-bold uppercase tracking-h3 text-left cursor-pointer;
+    @apply mt-4 pl-20 block relative h-12 w-full outline-none;
+    @apply before:absolute before:left-8 before:text-h3 before:opacity-50;
+    @apply transition-[border];
+}
+
+.active-button {
+    @apply border-none;
+}
+
+.planets-image-cell svg {
+    @apply self-center overflow-visible origin-top-left;
+}
+
+.planet-fact-card {
+    @apply flex h-min max-h-32 w-full border-[1px] border-white-20% py-4 px-8 xs:flex-col sm:flex-row md:flex-col;
+    @apply justify-between xs:col-span-4 md:col-span-2 lg:col-span-1 xl:mt-20;
+}
+
+.planet-fact-card h3 {
+    @apply whitespace-nowrap opacity-50 xs:leading-normal sm:leading-[52px] md:leading-normal;
+}
+
+.planet-fact-card p {
+    @apply h2 whitespace-nowrap uppercase;
+}

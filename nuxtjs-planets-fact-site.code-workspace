@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "inlineFold.regex": "([^:]class)=[\"]([^\"]+)[\"]",
+        "inlineFold.regexFlags": "g",
+        "inlineFold.regexGroup": "2",
+        "inlineFold.maskChar": "...",
+        "inlineFold.maskColor": "#ce9178",
+        "inlineFold.unfoldOnLineSelect": true
+    },
+    "extensions": {
+        "recommendations": [
+            "actboy168.tasks"
+        ]
+    }
+}
