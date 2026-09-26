@@ -1,0 +1,31 @@
+{
+  "title": "Planets",
+  "tagline": "A planets facts website built with NuxtJS. 🪐",
+  "why": [
+    "A Premium Frontend Mentor challenge."
+  ],
+  "sections": [
+    {
+      "title": "How it looks",
+      "body": [
+        "You can find a live demo here: [https://planets.webry.com/](https://planets.webry.com/)."
+      ],
+      "images": [{ "src": "https://github.com/web-dev-sam/planets/blob/main/demo.jpg?raw=true", "width": 600 }]
+    },
+    {
+      "title": "How to run it",
+      "body": [
+        "```bash",
+        "$ npm install",
+        "$ npm run dev",
+        "```"
+      ]
+    },
+    {
+      "title": "About Frontend Mentor",
+      "body": [
+        "You can access the challenge [here](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f)"
+      ]
+    }
+  ]
+}
